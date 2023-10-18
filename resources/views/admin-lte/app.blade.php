@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   @include('admin-lte.header')
+  @livewireStyles
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -24,6 +25,7 @@
 
     <!-- Main content -->
         @yield('content')
+  </div>
   <!-- /.content-wrapper -->
   @include('admin-lte.footer')
 
@@ -32,10 +34,12 @@
     <!-- Control sidebar content goes here -->
   </aside>
   <!-- /.control-sidebar -->
+  
 </div>
 <!-- ./wrapper -->
 
 <!-- jQuery -->
 @include('admin-lte.javascript')
+@livewireScripts
 </body>
 </html>

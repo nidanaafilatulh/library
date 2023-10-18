@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Anggota\BukuController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +25,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/dashboard', function () {
     return view('anggota/dashboard');
 });
+
+Route::get('/buku', BukuController::class);
