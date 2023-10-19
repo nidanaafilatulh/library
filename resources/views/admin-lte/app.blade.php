@@ -9,7 +9,7 @@
 
   <!-- Preloader -->
   @include('admin-lte.preloader')
-
+ 
   <!-- Navbar -->
   @include('admin-lte.navbar')
   <!-- /.navbar -->
